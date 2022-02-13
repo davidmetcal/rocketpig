@@ -30,6 +30,8 @@ const InnerContainer = styled.div`
 	justify-center
 	pt-8
 	pb-8
+	md:pl-8
+	md:pr-8
 `}
 `;
 
