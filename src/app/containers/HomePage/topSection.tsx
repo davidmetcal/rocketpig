@@ -14,6 +14,11 @@ const TopSectionContainer = styled.div`
 	min-height: 340px;
 	margin-top: 4em;
 
+	@media (min-width: ${SCREENS.xs}) {
+		min-height: 400px;
+		margin-top: 8em;
+	}
+
 	@media (min-width: ${SCREENS.sm}) {
 		min-height: 400px;
 		margin-top: 8em;
@@ -36,6 +41,8 @@ const TopSectionContainer = styled.div`
     pr-3
     lg:pl-12
     lg:pr-12
+
+	opacity-50
 
 `};
 `;
