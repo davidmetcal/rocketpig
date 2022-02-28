@@ -9,6 +9,7 @@ import Blob from '../../../assets/images/blob.svg';
 import Rocket from '../../../assets/images/Rocket-pink.png';
 import { SCREENS } from '../../components/responsive';
 import Button from '../../components/buttons';
+import hsp from 'heroku-self-ping';
 
 const TopSectionContainer = styled.div`
 	min-height: 340px;
@@ -232,6 +233,8 @@ const ButtonsContainer = styled.div`
 `;
 
 export const TopSection = () => {
+	hsp('http://rocketpig.co');
+
 	return (
 		<TopSectionContainer>
 			<LeftContainer>

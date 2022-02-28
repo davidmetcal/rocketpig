@@ -19,6 +19,7 @@
 		"@types/react-redux": "^7.1.22",
 		"@types/react-responsive": "^8.0.5",
 		"@types/styled-components": "^5.1.22",
+		"heroku-self-ping": "^2.0.1",
 		"react": "^17.0.2",
 		"react-burger-menu": "^3.0.6",
 		"react-dom": "^17.0.2",
