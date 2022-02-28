@@ -2,6 +2,9 @@
 	"name": "website",
 	"version": "0.1.0",
 	"private": true,
+	"engines": {
+		"node": "16.11.0"
+	},
 	"dependencies": {
 		"@brainhubeu/react-carousel": "^2.0.4",
 		"@fortawesome/free-solid-svg-icons": "^6.0.0",
