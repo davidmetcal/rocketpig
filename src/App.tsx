@@ -15,7 +15,7 @@ flex-col
 `;
 
 function App() {
-	hsp('http://rocketpig.co');
+	hsp('https://rocketpig-website.herokuapp.com/');
 	return (
 		<AppContainer>
 			<HomePage />
