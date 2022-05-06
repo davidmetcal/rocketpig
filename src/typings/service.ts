@@ -1,7 +1,7 @@
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 export interface IService {
-	icon: IconProp;
+	icon: any;
 	title: string;
 	content: string;
 }
